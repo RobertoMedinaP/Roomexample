@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     y actualizar las dependencias*/
 
 
+    //la main activity se comunica con el viewmodel
     private lateinit var contactsViewModel: ContactsViewModel
     private lateinit var binding: ActivityMainBinding
 
